@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weight Converter</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Custom JS -->
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Header code-->
+    </header>
+
+    <main>
+      <div class="wrapper">
+        <h1 class="headline">Weight Converter</h1>
+        <!-- Users input -->
+        <form>
+          <input type="number" id="search" placeholder="Enter kilograms..." autocomplete="off"/>
+          <input type="submit" id="submit-btn" value="Calculate" />
+        </form>
+        <!-- Place for output after form submission -->
+        <div class="cards-container">
+        <div id="output">
+          <div class="card">
+            <div class="card-block">
+              <h4>Grams:</h4>
+              <div id="gramsOutput"></div>
+            </div>
+          </div>
+
+            <div class="card">
+              <div class="card-block">
+                <h4>Pounds:</h4>
+                <div id="lbOutput"></div>
+              </div>
+            </div>
+
+              <div class="card">
+                <div class="card-block">
+                  <h4>Ounces:</h4>
+                  <div id="ozOutput"></div>
+                </div>
+              </div>
+              </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Footer code -->
+    </footer>
+  </body>
+</html>
